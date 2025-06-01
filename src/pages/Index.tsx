@@ -1,18 +1,20 @@
 import { Header } from "../components/layout/Header";
 import { Footer } from "../components/layout/Footer";
 import { Hero } from "../components/sections/Hero";
-import { SkillInput } from "../components/sections/SkillInput";
-import { LevelInput } from "../components/sections/LevelInput";
+import { Spacer } from "../components/sections/Spacer"
+import { About } from "../components/sections/About"
 
 const Index = () => {
   return (
     <div className="w-full min-h-screen flex flex-col">
       
       <Header />
+      <Spacer />
       <main>
         <Hero />
-        <SkillInput />
-        <LevelInput />
+        <Spacer />
+        <About />
+        <Spacer />
       </main>
       <Footer />
     </div>
