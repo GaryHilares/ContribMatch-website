@@ -1,8 +1,9 @@
 import { Header } from "../components/layout/Header";
 import { Footer } from "../components/layout/Footer";
 import { Hero } from "../components/sections/Hero";
-import { Spacer } from "../components/sections/Spacer"
+import { Spacer } from "../components/layout/Spacer"
 import { About } from "../components/sections/About"
+import { Latest } from "../components/sections/Latest";
 
 const Index = () => {
   return (
@@ -14,6 +15,8 @@ const Index = () => {
         <Hero />
         <Spacer />
         <About />
+        <Spacer />
+        <Latest />
         <Spacer />
       </main>
       <Footer />

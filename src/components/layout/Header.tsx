@@ -4,7 +4,7 @@ import logo from '../../assets/contribmatch_logo.png';
 
 export const Header = () => {
     return (
-      <header className="flex justify-between items-center bg-white p-6 border-b border-solid max-sm:p-4">
+      <header className="flex justify-between items-center bg-white p-6 border-b border-solid">
         <img src={logo} alt="Logo" className="w-14 h-16"/>
         <div className="flex justify-end gap-4">
           <nav className="flex items-center space-x-4">
